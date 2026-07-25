@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luiz Lee 卢志豪 | 新加坡房产顾问</title>
+  <meta name="description" content="Luiz Lee 卢志豪 - 新加坡房产顾问。专注服务中国买家、投资者与本地业主，提供新房、转售组屋、私宅、租赁与估价一站式服务。">
+  <style>
+    :root{--navy:#0b1b33;--red:#9e1c2f;--gold:#c8a24a;--green:#17a34a;--bg:#faf7f2;--text:#1d2433;--muted:#5e6778;--card:#fff;--line:#e9e2d6;--shadow:0 14px 34px rgba(16,24,40,.08)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);background:var(--bg)} a{text-decoration:none;color:inherit} img{max-width:100%;display:block}
+    .wrap{width:min(1160px,92vw);margin:0 auto} .topbar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:16px}.brand{font-weight:900;letter-spacing:.3px}.navlinks{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+    .hero{padding:44px 0 28px;background:linear-gradient(135deg,#0b1b33 0%,#17284a 52%,#6b1021 100%);color:#fff}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+    .hero h1{font-size:clamp(38px,6vw,66px);line-height:1.03;margin:0 0 12px}.hero p{font-size:18px;line-height:1.7;color:#dde6f4;margin:0 0 22px}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);padding:9px 14px;border-radius:999px;color:#fff;background:rgba(255,255,255,.08);margin-bottom:14px;font-size:13px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 18px;border-radius:14px;font-weight:800;border:1px solid transparent}.btn.primary{background:var(--green);color:#fff}.btn.secondary{background:#fff;color:var(--navy)}
+    .photo-card{background:#fff;border-radius:24px;padding:18px;box-shadow:var(--shadow);color:var(--text)} .profile-photo{border-radius:18px;overflow:hidden;border:1px solid var(--line)} .meta{margin-top:14px;display:grid;gap:8px}.meta strong{font-size:15px}.meta span{color:var(--muted);font-size:14px}
+    section{padding:72px 0} .sec-head{margin-bottom:26px}.sec-head h2{font-size:clamp(28px,4vw,40px);margin:0 0 10px}.sec-head p{margin:0;color:var(--muted);line-height:1.75}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)} .card h3{margin:0 0 10px;font-size:22px} .card p{margin:0;color:var(--muted);line-height:1.75}
+    .service-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}.service{padding:14px 16px;border-radius:14px;background:#fbf8f3;border:1px solid var(--line)}
+    .projects .project{display:flex;flex-direction:column;gap:10px}.badge{display:inline-block;width:max-content;padding:7px 11px;border-radius:999px;background:#fff0f2;color:#84192a;font-size:12px;font-weight:800;border:1px solid #f0d5da}
+    .valuation{background:linear-gradient(135deg,#f7efe3,#fff);border:1px solid #eadbb5} .valuation .btn{background:var(--navy);color:#fff}
+    .leadform form{display:grid;gap:12px} input,textarea{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:14px;font:inherit;background:#fff} textarea{min-height:120px;resize:vertical}
+    .footer{padding:30px 0 92px;color:var(--muted);font-size:14px}
+    .sticky-wa{position:fixed;right:18px;bottom:18px;z-index:60;background:var(--green);color:#fff;padding:14px 18px;border-radius:999px;box-shadow:0 14px 30px rgba(23,163,74,.28);font-weight:800}
+    .floating-brochure{position:fixed;left:18px;bottom:18px;z-index:60;background:var(--red);color:#fff;padding:14px 18px;border-radius:999px;box-shadow:0 14px 30px rgba(158,28,47,.24);font-weight:800}
+    .small{font-size:13px;color:var(--muted)} .lang{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.lang span{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);font-size:12px}
+    .divider{height:1px;background:var(--line);margin:16px 0}
+    @media (max-width:900px){.hero-grid,.grid-3,.grid-2{grid-template-columns:1fr}.nav{flex-direction:column;align-items:flex-start}.service-list{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="brand">Luiz Lee 卢志豪 | 新加坡房产顾问</div>
+      <nav class="navlinks">
+        <a href="#about">关于我</a><a href="#services">服务</a><a href="#projects">精选项目</a><a href="#valuation">免费估价</a><a href="#contact">联系我</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="pill">CEA 注册编号：R057632A</div>
+          <h1>您的新加坡房产顾问</h1>
+          <p>专注服务中国买家、投资者与本地业主，提供新房、转售组屋、私宅、租赁、估价与房屋包装的一站式服务。中文沟通清晰直接，WhatsApp 快速响应。</p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://wa.me/6589809229?text=%E4%BD%A0%E5%A5%BD%EF%BC%8CLuiz%EF%BC%8C%E6%88%91%E6%83%B3%E5%92%A8%E8%AF%A2%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%88%BF%E4%BA%A7%E3%80%82" target="_blank" rel="noopener">立即咨询 WhatsApp</a>
+            <a class="btn secondary" href="#valuation">免费房产估价</a>
+          </div>
+          <div class="lang"><span>中文优先</span><span>English Support</span><span>投资导向</span><span>高端呈现</span></div>
+        </div>
+        <div class="photo-card">
+          <div class="profile-photo"><img src="Luiz-CEA-PIC-and-DETAILs.jpg" alt="Luiz Lee 卢志豪 房产顾问照片"></div>
+          <div class="meta"><strong>Luiz Lee 卢志豪</strong><span>CEA 注册编号：R057632A</span><span>手机：8980 9229</span><span>邮箱：<a href="mailto:luizleesg@gmail.com">luizleesg@gmail.com</a></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="sec-head"><h2>关于 Luiz</h2><p>以专业、快速与可信赖为核心，帮助客户在新加坡做出更安心的房产决定。</p></div>
+        <div class="card"><p>Luiz Lee 是新加坡房产顾问，专注帮助中国买家、投资者和本地业主掌握清晰的市场信息，找到适合的置业与投资方案。他重视沟通效率、市场判断和成交执行，服务风格现代、稳重、专业，适合重视效率与信任感的客户。无论是首次置业、升级换房，还是项目投资与出租管理，Luiz 都能提供一站式支持。</p></div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="sec-head"><h2>服务范围</h2><p>围绕中国买家与投资者的实际需求，提供清晰、直接、可执行的房产服务。</p></div>
+        <div class="grid-3">
+          <div class="card"><h3>新房销售</h3><p>精选新推出项目，协助了解楼盘亮点、户型差异与购买流程。</p></div>
+          <div class="card"><h3>转售组屋</h3><p>帮助买卖双方评估价格、规划时间表并提高成交效率。</p></div>
+          <div class="card"><h3>私宅与投资</h3><p>适合看重资产配置、租赁回报与长期增值的客户。</p></div>
+        </div>
+        <div class="service-list">
+          <div class="service">租赁与租客配对。</div>
+          <div class="service">房产估价与定价策略。</div>
+          <div class="service">房屋包装与营销建议。</div>
+          <div class="service">中英双语沟通。</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="wrap">
+        <div class="sec-head"><h2>精选项目</h2><p>首页展示重点楼盘，方便客户快速浏览并直接咨询。</p></div>
+        <div class="grid-3">
+          <div class="card project"><span class="badge">重点推荐</span><h3>Lentor Gardens Residences</h3><p>位于成熟新兴板块的优质新盘选择，适合关注交通与未来发展潜力的买家。</p></div>
+          <div class="card project"><span class="badge">重点推荐</span><h3>Terra Hill</h3><p>高端私宅项目，适合偏好品质生活、资产保值与私宅配置的客户。</p></div>
+          <div class="card project"><span class="badge">重点推荐</span><h3>The Serra Residences</h3><p>精品型项目，风格更私密，适合追求低密度与舒适感的买家。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid-2">
+        <div class="card"><h3>为什么选择新加坡</h3><p>新加坡房产市场以政策透明、法制清晰和长期稳定著称，适合重视安全感、资产保全与跨境配置的客户。</p></div>
+        <div class="card"><h3>服务区域</h3><p>覆盖全新加坡，尤其适合建立 HDB 社区内容与本地 SEO 页面，增强自然搜索曝光。</p><p class="small">可优先覆盖：Sengkang、Punggol、Hougang、Tampines、Bedok、Yishun、Woodlands、Bishan、Toa Payoh、Bukit Batok。</p></div>
+      </div>
+    </section>
+
+    <section id="valuation" class="valuation">
+      <div class="wrap grid-2">
+        <div>
+          <div class="sec-head"><h2>免费房产估价</h2><p>用来快速吸引卖家咨询，建立联系并转化潜在客户。</p></div>
+          <a class="btn" href="https://wa.me/6589809229?text=%E4%BD%A0%E5%A5%BD%EF%BC%8CLuiz%EF%BC%8C%E6%88%91%E6%83%B3%E8%8E%B7%E5%BE%97%E5%85%8D%E8%B4%B9%E6%88%BF%E4%BA%A7%E4%BC%B0%E4%BB%B7%E3%80%82" target="_blank" rel="noopener">立即申请免费估价</a>
+        </div>
+        <div class="card">
+          <p class="small">建议预留表单字段：</p>
+          <div class="leadform"><form><input type="text" placeholder="姓名"><input type="tel" placeholder="手机号码"><input type="text" placeholder="房产地点"><textarea placeholder="请简单说明您的需求"></textarea></form></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap grid-2">
+        <div class="card"><h3>客户评价</h3><p>可预留为未来客户点评区，后续可手动更新或连接 Google Reviews。</p></div>
+        <div class="card"><h3>下载简介</h3><p>可制作成一页式 PDF 个人简介，便于 WhatsApp 发送与客户留存。</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap card">
+        <div class="sec-head"><h2>联系我</h2><p>WhatsApp 与邮件均可快速联系。</p></div>
+        <p><strong>手机：</strong>8980 9229</p>
+        <p><strong>邮箱：</strong><a href="mailto:luizleesg@gmail.com">luizleesg@gmail.com</a></p>
+        <p><strong>WhatsApp：</strong><a href="https://wa.me/6589809229" target="_blank" rel="noopener">立即聊天</a></p>
+        <div class="divider"></div>
+        <p class="small">CEA 注册信息公开可查，帮助客户安心选择可信赖的房产顾问。</p>
+      </div>
+    </section>
+  </main>
+
+  <a class="sticky-wa" href="https://wa.me/6589809229?text=%E4%BD%A0%E5%A5%BD%EF%BC%8CLuiz%EF%BC%8C%E6%88%91%E6%83%B3%E5%92%A8%E8%AF%A2%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%88%BF%E4%BA%A7%E3%80%82" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="floating-brochure" href="#contact">简介</a>
+  <footer class="footer"><div class="wrap">CEA 注册编号：R057632A。新加坡房产服务由 Luiz Lee 卢志豪 提供。</div></footer>
+</body>
+</html>
