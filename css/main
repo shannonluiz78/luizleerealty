@@ -1,0 +1,53 @@
+/* ==========================================================================
+   LUIZ LEE REALTY - LUXURY DESIGN SYSTEM & STYLESHEET
+   Design Philosophy: Luxury, minimalist, Apple/Tesla/Sotheby's inspired.
+   Colors: Midnight Navy, Accent Gold, Warm White, Glassmorphism.
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+:root {
+  /* Color Palette */
+  --bg-dark-primary: #0A1120;
+  --bg-dark-secondary: #0F192E;
+  --bg-dark-tertiary: #16243E;
+  
+  --gold-primary: #D4AF37;
+  --gold-light: #F3E5AB;
+  --gold-gradient: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA7C11 100%);
+  --gold-border: rgba(212, 175, 55, 0.35);
+  
+  --text-white: #FFFFFF;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  
+  --glass-bg: rgba(15, 25, 46, 0.75);
+  --glass-border: rgba(212, 175, 55, 0.25);
+  --glass-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  
+  /* Typography */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Layout & Spacing */
+  --container-max: 1280px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* Reset & Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
