@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Main page (highest priority) -->
+  <url>
+    <loc>https://luizleerealty.com/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="en-sg" href="https://luizleerealty.com/"/>
+  </url>
+
+  <!-- About section -->
+  <url>
+    <loc>https://luizleerealty.com/#about</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Services section -->
+  <url>
+    <loc>https://luizleerealty.com/#services</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Official Profile / Credentials section -->
+  <url>
+    <loc>https://luizleerealty.com/#credentials</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Property Calculators section -->
+  <url>
+    <loc>https://luizleerealty.com/#calculators</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Contact section -->
+  <url>
+    <loc>https://luizleerealty.com/#contact</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>
