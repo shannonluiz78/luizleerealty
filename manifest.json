@@ -1,0 +1,16 @@
+{
+  "name": "Luiz Lee Realty",
+  "short_name": "Luiz Lee Realty",
+  "description": "Helping Singapore Families Make Better Property Decisions",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0A1120",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "images/luiz-portrait.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
